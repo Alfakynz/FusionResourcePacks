@@ -78,8 +78,8 @@ for (def entry in properties) {
     def changelog = file("${entry.name}/changelog.md")
     if (!changelog.exists())
         throw new IllegalStateException("Pack '" + entry.name + "' is missing changelog.md file!")
-    def changelogText = changelog.text.split('\n')
-    def changelogVersion = changelogText[0].substring(changelogText[0].lastIndexOf(' '))
+    def changelogText = changelog.text.replace("\r\n", "\n").replace('\r', '\n').split('\n')
+    def changelogVersion = changelogText[0].substring(changelogText[0].lastIndexOf(' ') + 1)
     if (changelogVersion != entry.version)
         throw new IllegalStateException("Pack '" + entry.name + "' has a version mismatch with changelog! Specified is '" + entry.version + "', but changelog is at '" + changelogVersion + "'.")
     // Check overlay folders exist
