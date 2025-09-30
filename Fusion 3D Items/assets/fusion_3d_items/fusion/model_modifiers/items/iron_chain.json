@@ -2,6 +2,6 @@
   "targets": [
     "minecraft:chain"
   ],
-  "default_model": "fusion_3d_items:item/chain",
+  "default_model": "fusion_3d_items:item/iron_chain",
   "models": []
 }

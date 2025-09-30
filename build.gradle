@@ -53,7 +53,7 @@ final var properties = [
         description  : "Adds unique item textures for different stack sizes",
         curseforge_id: "1315461",
         modrinth_id  : "d2NwuerS",
-        overlays     : [24, 51]
+        overlays     : [24, 51, 67]
     ],
     [
         id           : "fusion-3d-items",
@@ -62,7 +62,7 @@ final var properties = [
         description  : "Replaces many item textures with 3D models",
         curseforge_id: "1315462",
         modrinth_id  : "YCXs6v9u",
-        overlays     : [20, 40]
+        overlays     : [20, 40, 67]
     ]
 ]
 

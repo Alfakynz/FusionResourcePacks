@@ -22,6 +22,12 @@
         "min_format": 51,
         "max_format": 1000,
         "directory": "pack_format_51"
+      },
+      {
+        "formats": [67, 1000],
+        "min_format": 67,
+        "max_format": 1000,
+        "directory": "pack_format_67"
       }
     ]
   }
