@@ -1,3 +1,6 @@
+### Fusion Block Transitions 1.0.3
+- Account for 1.21.9 pack.mcmeta format changes
+
 ### Fusion Block Transitions 1.0.2
 - Fixed breaking overlay being layered multiple times for blocks with transitions
 

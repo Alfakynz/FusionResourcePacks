@@ -2,7 +2,9 @@
   "pack": {
     "description": "Dummy",
     "pack_format": 15,
-    "supported_formats": [15, 1000]
+    "supported_formats": [15, 1000],
+    "min_format": 15,
+    "max_format": 1000
   },
   "fusion": {
     "min_version": "1.0.0"
@@ -11,10 +13,14 @@
     "entries": [
       {
         "formats": [24, 1000],
+        "min_format": 24,
+        "max_format": 1000,
         "directory": "pack_format_24"
       },
       {
         "formats": [51, 1000],
+        "min_format": 51,
+        "max_format": 1000,
         "directory": "pack_format_51"
       }
     ]
